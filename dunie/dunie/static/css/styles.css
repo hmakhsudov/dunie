@@ -380,12 +380,14 @@ span{
 
 .onlyyou{
     height: 617px;
-    margin-bottom: 130px;
 }
 
 .press{
-    margin-bottom: 180px;
-    color: #000;
+    background-image: url(../img/press-back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 130px;
+    padding-bottom: 180px;
 }
 
 .press h2{
@@ -402,9 +404,6 @@ span{
     margin-bottom: 35px;
 }
 
-.whoami{
-    margin-bottom: 100px;
-}
 
 .footer__form{
     display: flex;
@@ -507,4 +506,24 @@ form input::placeholder{
 .footer__policy ul li a{
     font-size: 15px;
     color: #0A142F;
+}
+
+.future{
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.future__content{
+    width: 500px;
+    color: #000;
+    padding-top: 150px;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.future__image{
+    position: absolute;
+    top: 0;
+    right: 0;
+
 }
