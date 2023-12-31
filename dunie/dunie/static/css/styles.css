@@ -533,13 +533,13 @@ main{
 
 @media (min-width: 700px) {
     .second_image{
-        left: 0;
+        left: -77px;
     }
     
     
     .second_content-text{
         margin-left: auto;
-        margin-right: 0px;
+        margin-right: 60px;
         width: 610px;
     
     }
@@ -951,13 +951,13 @@ form input::placeholder{
     
     .future__image{
         position: absolute;
-        top: 0;
+        top: 32px;
         right: 0;
     
     }    
     .future__image img{
         width: 203px;
-        height: 357px;
+        height: 375px;
     }
 
     .footer__form{
