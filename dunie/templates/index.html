@@ -1,13 +1,17 @@
 {% load static %}
 
 <!DOCTYPE html>
-<html lang="">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dunie</title>
-    <link rel="stylesheet" href="{% static 'css/fonts.css' %}">
+    <!-- Подключение стилей Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link href="https://fonts.cdnfonts.com/css/times-new-roman" rel="stylesheet">
+
     <link rel="stylesheet" href="{% static 'css/styles.css'%}">
 </head>
 
@@ -30,7 +34,6 @@
 
                 <h1>Первое позитивное планетарное движение</h1>
                 <div class="header__banner">
-                    <img src="{% static 'img/header-banner.png' %}" alt="">
                 </div>
             </div>
         </div>
@@ -39,7 +42,7 @@
     <main>
         <div class="small-container">
             <h2>Цели и задачи первого позитивного планетарного движения для все вся всех всего:</h2>
-            <div class="goals__content">
+            <div class="goals__content slick-slider">
                 <div class="goals__item">
                     <img src="{% static 'img/goals-element.png' %}" alt="">
                     <div class="goals__text">Гармонизация здоровья и благополучия человечества</div>
@@ -77,7 +80,6 @@
             </h2>
             <div class="rules__content">
                 <div class="rules__content-image">
-                    <img src="{% static 'img/rules-banner.png' %}" alt="">
                 </div>
                 <div class="rules__content-text">
                     <div class="rules__content-item">
@@ -153,13 +155,14 @@
                 </div>
             </div>
 
-            <h2>Вызовы и преграды для позитивного планетарного движения:</h2>
+            <h2>Роли и ответственность участников:</h2>
 
             <div class="problems__items">
                 <div class="problems__item">
-                    <h3 class="problems__item-title">Инерция и страх</h3>
-                    <div class="problems__item-description">Многие люди опасаются изменений, боятся неизвестности и
-                        ближайшего будущего, поэтому сложно преодолеть инерцию и начать позитивное планетарное движение
+                    <h3 class="problems__item-title">Политики</h3>
+                    <div class="problems__item-description">Ответственность политиков - разработка и реализация законов
+                        и инициатив, способствующих позитивному движению и обеспечивающих права и благополучие всех
+                        людей.
                     </div>
                 </div>
                 <div class="problems__item">
@@ -168,11 +171,11 @@
                         вносить изменения своими локальными и международными действиями и привлекать внимание к
                         позитивному планетарному движению.</div>
                 </div>
-                <div class="problems__item">
-                    <h3 class="problems__item-title">Сложности в масштабировании</h3>
-                    <div class="problems__item-description">Идеи и проекты позитивного планетарного движения часто
-                        сталкиваются с проблемой масштабирования. Нужно много потрудиться, чтобы достичь значительного
-                        разумного воздействия</div>
+                <div class="problems__item item3">
+                    <h3 class="problems__item-title">Бизнес</h3>
+                    <div class="problems__item-description">Бизнес может принимать ответственное поведение,
+                        инвестировать в устойчивые и инновационные решения и помогать создавать равные возможности для
+                        всех.</div>
                 </div>
             </div>
         </div>
@@ -269,8 +272,7 @@
                 В городах переходных и инновационных
             </h2>
             <div class="rules__content newcities__content">
-                <div class="rules__content-image">
-                    <img src="{% static 'img/cities-banner.png' %}" alt="">
+                <div class="rules__content-image newcities-image">
                 </div>
                 <div class="rules__content-text newcities__content-text">
 
@@ -361,33 +363,33 @@
                     </div>
                     <br>
 
-                    <p>   Сегодняшнее и будущее дома нашего, общего корабля - планета Земля - зависит
+                    <p> Сегодняшнее и будущее дома нашего, общего корабля - планета Земля - зависит
                         лишь от всех нас, те от Человека и Человечества!</p>
-                        <br>
-                        <br>
+                    <br>
+                    <br>
 
 
 
-                        <h3>Какой у нас Образ будущего ?</h3>
-                        <br>
+                    <p>Какой у нас Образ будущего ?</p>
+                    <br>
 
-                     
 
-                        Позитивное планетарное движение в рамках ЖИВОЙ дорожной карты и она , ЖДК, дают решение
-                        для все, вся, всех и всего!!!
-                        <br>
-                        <br>
 
-                        Думай только сам! Спроси сам! Узнай сам! Реши сам! Как ты хочешь тут жить.
-                        <br>
-                        <br>
+                    Позитивное планетарное движение в рамках ЖИВОЙ дорожной карты и она , ЖДК, дают решение
+                    для все, вся, всех и всего!!!
+                    <br>
+                    <br>
 
-                        Человек знай, что созидание + технологии = ЖИЗНЬ Человека в общем доме и в нашем
-                        космическом корабле под именем планета Земля
+                    Думай только сам! Спроси сам! Узнай сам! Реши сам! Как ты хочешь тут жить.
+                    <br>
+                    <br>
+
+                    Человек знай, что созидание + технологии = ЖИЗНЬ Человека в общем доме и в нашем
+                    космическом корабле под именем планета Земля
                 </div>
-              
+
             </div>
-           
+
         </div>
         <div class="future__image">
             <img src="{% static 'img/rose.png' %}" alt="">
@@ -431,6 +433,28 @@
             </div>
         </div>
     </footer>
+
+
+    <!-- Подключение скрипта Slick Slider JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+    <script>
+        $(document).ready(function () {
+            if ($(window).width() < 500) { // Проверка ширины экрана для мобильных устройств
+                $('.goals__content.slick-slider').slick({
+                    slidesToShow: 1, // Количество отображаемых слайдов
+                    slidesToScroll: 1, // Количество прокручиваемых слайдов
+                    autoplay: true, // Автоматическая прокрутка
+                    autoplaySpeed: 3000 // Скорость автоматической прокрутки в миллисекундах
+                    // Другие настройки слайдера можно добавить по необходимости
+                });
+            }
+        });
+    </script>
+
 
 </body>
 
